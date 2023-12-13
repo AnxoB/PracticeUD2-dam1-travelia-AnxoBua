@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Heebo:wght@200&display=swap');
+
+#travelia{
+    font-family: 'Ephesis';
+    font-size: 2.5em;
+}
+body{
+    font-family: 'Heebo';
+    color: black;
+}
+footer{
+    color: white;
+    background-color: #f42d59;
+    padding: 10px;
+    text-align: center;
+}
+header{
+    color: white;
+    background-color: #f42d59;
+}
+#freekip{
+    color: white;
+}
+#freekip:hover{
+    color: #d9d9d9;
+}
+#boton{
+    color: white;
+    background-color: #f42d59;
+    width: 250px;
+    height: 30px;
+    border: 0;
+}
+#boton:hover{
+    background-color: #d9d9d9;
+    color: #f42d59;
+}
+#div1{
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+}
+#div3{
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+#miembroform{
+    padding: 10px;
+}
+#card{
+    width: 200px;
+    height: 370px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+#imgcard{
+    width: 60px;
+    border-radius: 50%;
+}
+#imglogo{
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+#photo{
+    width: 100%;
+}
+@media only screen and (min-width:770px){
+    form{
+        width: 380px;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:769px){
+    form{
+        width: 285px;
+    }
+}
+
+
